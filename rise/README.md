@@ -13,7 +13,7 @@
 		- rise plugins 없는 환경
 			- bigdataquery가 영향인가?
 		- result backend 설정
-			- 
+			- postgre -> redis 로 변경, 단점은 scheduler가 죽으면 task 이력을 잃어버림.
 		- redis sentinel (require replica write 0)
 		- postgresql 보관주기 줄이기
 	
