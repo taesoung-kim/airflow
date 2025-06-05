@@ -1,6 +1,7 @@
 1. 우리가 원하는 환경 : CeleryKubernetesExecutor
     - CeleryKubernetesExecutor airflow 3.0.0 부터 Deprecated 
-
+	- airflow 3.0 : executor: "CeleryExecutor,KubernetesExecutor"
+ - 
 2. bigdataquery는 api 형식으로 빼야될 것 같음
 	- github-interface-server 처럼 api 기능하는 서버 생성
 	- token 을 어떻게 interface할 것인가.
